@@ -2,6 +2,7 @@ import React from "react";
 
 const BookRow = props => {
   const book = props.book;
+
   const authorName = props.authorName;
   return (
     <tr>
